@@ -1,0 +1,203 @@
+/*add dark mode toggle switch 
+ #262626 is a good darkmode color
+
+ add enlarge image when clicked
+add footer to everything
+ add dark mode toggle
+*/
+
+body{  
+    background: black; /*make white if dark mode off, then #262626*/
+    align-items: center;  
+    text-align: center;
+    margin-top: 0;
+  }
+  
+  .formBox{
+    border: 2px solid white;
+    padding: 100px 100px; 
+    border-radius: 20px;
+    
+  }
+  
+ 
+  
+  #navButton{
+    background: #000000;
+    border-color: #000000;
+  }
+  
+  
+  #imageBox{
+    background-color: black; /*make white if darkmode off, then #262626*/
+   
+    width: 100px;
+    height: 100px;
+  }
+  
+  
+  #titleBox{
+    box-sizing: border-box;
+  
+  position: relative;
+  width: 577.57px;
+  height: 101.52px;
+  
+  top: 190.24px;
+  }
+  
+  
+  
+  
+  
+  #apertureNav{
+    -webkit-filter: invert();
+    width: 40px;
+    
+    
+  }
+  
+  #apertureNav:hover{
+    animation: spinAperture 1.5s infinite linear;
+  }
+  
+  #apertureTitle{
+    -webkit-filter: invert();
+    margin: 20px 20px;
+    width: 70px;
+  }
+  
+  #apertureTitle:hover{
+    animation: spinAperture 1.5s infinite linear;
+    
+  }
+  #aboutMe{
+   
+    background-color: white;  /*change to black if darkmode off*/
+    display: grid;
+    
+  }
+  
+  #aboutMe img{
+    border-radius: 33px;
+   margin-top: 20px;
+    margin-right: 20px;
+    box-shadow: -50px 54px 22px -4px rgba(0, 0, 0, 0.37);
+  }
+  
+  
+  #recentWork{
+    background: black;
+    height: 2000px;
+  }
+  
+  
+  .aboutMeWrapper{
+    background: white;
+  }
+  
+  #recentWork img{
+    border-radius: 20px;
+    margin: 10px 10px;
+  }
+  
+  .bookNowButton{
+    color: white;
+    background: black;
+    padding: 20px 50px;
+    border-radius: 50px;
+    font-size: 1.25rem;
+  }
+  
+  .bookNowButton:hover{
+    animation-name: enlargeButton;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  .grid{
+    display: grid;
+    
+    grid-template-rows: 4;
+  }
+  
+  .nav-link:hover{
+    animation-name: enlargeLinks;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    
+  }
+  
+  
+  
+  #flowers{
+   
+  }
+  
+  
+  #modalContent{
+    background-color: rgba(0, 0, 0, 0);
+  }
+  #balloons{
+    height: auto;
+    width: auto;
+    grid-column: 1;
+    grid-row: 1;
+  }
+  
+  #graffiti{
+    grid-row: 1;
+    grid-column: 1;
+  }
+  
+  #concrete{
+    grid-row: 2;
+    grid-column: 2;
+  }
+  
+  #street{
+   grid-row: 3;
+   grid-column: 1;
+  }
+  
+  #statue{
+    
+  }
+  
+  #plasma{
+    
+  }
+  
+  #mustang{
+    
+  }
+  
+  #mode{
+    position: relative;
+    top: 13px;
+    left: 30px;
+    margin-left: 10px;
+    margin-right: 0px;
+    
+    
+  }
+  
+  #instagram, #facebook, #twitter{
+    font-size: 30px;
+    margin: 10px 10px;
+  }
+  
+  
+  @keyframes spinAperture {
+    from{transform: rotate(0deg);}
+    to{transform: rotate(359deg); }
+  }
+  
+  @keyframes enlargeButton{
+    from{font-size: 20px;}
+    to{font-size: 25px;}
+  }
+  
+  @keyframes enlargeLinks{
+    from{font-size: 16px;}
+    to{font-size: 20px;}
+  }

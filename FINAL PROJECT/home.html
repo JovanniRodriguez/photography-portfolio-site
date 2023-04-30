@@ -1,0 +1,207 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>JR Photography</title>
+    <link rel="icon" type="image/x-icon" href="favicon-32x32.png" id="favicon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+ 
+    <nav class="navbar navbar-expand-md navbar-dark rounded-pill fixed-top mx-1 my-2" style="background-color: black;" id="navbar">
+        <div class="container-fluid">
+            <a href="home.html" class="navbar-brand mx-2">
+                <img src="aperture.png" alt="" id="apertureNav">
+                <span class="fw-bold" id="navTitle">JR PHOTOGRAPHY</span>
+                
+            </a>
+            <button class="navbar-toggler mx-3" type="button" data-bs-toggle="collapse"
+            data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+            aria-label="Toggle navigation" id="navButton">
+            <span class="navbar-toggler-icon">
+    
+            </span>
+    
+        </button>
+    
+        <!-- navbar links -->
+         <div class="collapse navbar-collapse justify-content-end align-center mx-5" id="main-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="home.html" class="nav-link fw-bold" style="color: white;"  >Home</a>
+                </li>
+    
+                <li class="nav-item">
+                    <a href="portfolio.html" class="nav-link fw-bold" style="color: white;" >Portfolio</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a href="contact.html" class="nav-link fw-bold " style="color: white;" >Contact</a>
+                </li>
+                <a href=""><i class="bi bi-moon-fill text-light" style="font-size: 1.05rem;" id="mode"></i></a>
+                
+            </ul>
+         </div>
+    
+        </div>
+        
+    </nav>
+   
+
+    <div class="container-xxl w-100 h-75" id="imageBox">
+    
+        <div class="container-xxl  text-nowrap text-center" style="color: white" id="titleBox">
+            
+            <h1 class="nameText display-3 mt-5 py-5">Jovanni  <img class="img-fluid" src="aperture.png" alt="aperture" id="apertureTitle">  Rodriguez</h1>
+            <h1 class="display-6 mt-3">Amateur Photography</h1>
+            <p>| EST.2001 |</p>
+            
+        </div>
+
+    </div>
+    <div class="aboutMeWrapper" style="background: white;">
+    <div class="container-xxl w-100 h-75" style="background: white" id="aboutMe">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-5">
+                <img src="headshotcropped.jpg" class="img-fluid mb-5" alt="" id="headshot">
+                <br><br>
+                <i class="bi bi-instagram" id="instagram"></i>
+                <i class="bi bi-facebook" id="facebook"></i>
+                <i class="bi bi-twitter" id="twitter"></i>
+                <a href="https://github.com/JovanniRodriguez/JovanniRodriguez.github.io"><i class="bi bi-github" style="color: black;" id="github"></i></a>
+
+
+            </div>
+            <div class="col-6">
+                <h1 class="display-3 my-5" id="aboutMeHeading">About Me</h1>
+                <p class="lead my-5" id="aboutMeText">Lorem ipsum dolor sit amet. Consectetur adipiscing elit. SED DO EUISMOD TEMPOR INCIDIDUNT UT LABORE ET DOLOR MAGNA ALIQUA. UT ENIM AD MINIM VENIAM, QUIS NOSTRUD EXERCITATION ULLAMCO LABORIS NISI UT ALIQUIP EX EA COMMODO CONSEQUAT. DUIS AUTE IRURE DOLOR IN REPREHENDERIT IN VOLUPTATE VELIT ESSE CILLUM DOLORE EU FUGIAT NULLA PARIATUR EXCEPTEUR SINT OCCAECAT CUPIDATAT NON PROIDENT. SUNT IN CULPA QUI OFFICIA DESERUNT MOLLIT ANIM ID EST LABORUM.</p>
+                <a href="contact.html"><button class="bookNowButton" id="bookNow">Book Now</button></a> <!--change to <a> tag-->
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="container-xxl w-100" id="recentWork">
+        <h1 class="display-2 pt-5 mb-5" style="color: white;" id="recentWorkHeading">RECENT WORK</h1>
+        <div class="container-xxl text-light mx-5 my-5 pe-5">
+            <div class="row">
+                <div class="col">
+                    <button type="button" class="btn"  id="balloonsButton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        <img src="balloons.jpg" class="img-fluid" alt="">
+                      </button>
+                    
+                    <div class="row">
+                        
+                        <div class="col">
+                            <button type="button" class="btn"  id="sunsetButton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img src="sunset.jpg" class="img-fluid" alt="">
+                              </button>
+                            
+                        </div>
+                        <div class="col">
+                            <button type="button" class="btn"  id="cowButton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                <img src="cow.jpg" class="img-fluid" alt="">
+                              </button>
+                            
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col">
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" class="btn"  id="graffitiButton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <img src="Graffiti.jpg" class="img-fluid" alt="" id="graffiti">
+                                  </button>
+                                
+                            </div>
+                            <div class="col">
+                                <button type="button" class="btn"  id="dudeButton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <img src="dude.jpg" class="img-fluid" alt=""> 
+                                  </button>
+                               
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" class="btn"  id="nyButton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <img src="ny.jpg" class="img-fluid" alt="">
+                                  </button>
+                                
+                            </div>
+                            <div class="col">
+                                <button type="button" class="btn"  id="subwayButton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <img src="subway.jpg" class="img-fluid" alt="">
+                                  </button>
+                                
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <button type="button" class="btn"  id="flowersButton" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <img src="flowers.jpg" class="img-fluid" alt="" id="flowers">
+                                  </button>
+                                
+                            </div>
+                        </div>
+                        
+                    
+                </div>
+                
+            </div>
+            
+        </div>
+    </div>
+    </div>
+
+    <div class="container-xxl">
+        <div class="row">
+            <div class="col">  <!--Manually adjust heights in css-->
+                
+                <img src="buildings and whatnot.jpg" class="img-fluid mb-3 rounded" alt="">                
+                <p class="fst-italic mb-5 pb-5" style="color: white;" id="buildings">"Buildings and whatnot" - 2019 Savannah, Ga</p>
+                <br>
+                <br>
+                <img src="miata rear b.w.jpg" class="img-fluid mt-5 pt-5 mb-3 rounded" alt="">
+                <p class="fst-italic mb-5 pb-5" style="color: white;" id="miata">"Very Fast Car Not Slow At All" - 2022 Lakeland, Fl</p>
+                <br>
+                <br>
+                <img src="image 3.JPG" class="img-fluid  mt-5 pt-5 mb-3 rounded" alt="" >
+                <p class="fst-italic mb-5 pb-5" style="color: white;"  id="mustang">"Mustang" - 2014 Brandon, Fl</p>
+                <br>
+                <br>
+                <img src="Golden clouds.jpg" class="img-fluid mt-5 pt-5 mb-3 rounded" alt="">
+                <p class="fst-italic mb-5 pb-5" style="color: white;"  id="clouds">"Golden Clouds" - 2016 San Juan, PR</p>
+                <br>
+                <br>
+                <img src="rock and waterfall 2.jpg" class="img-fluid mt-5 pt-5 mb-3 rounded" alt="">
+                <p class="fst-italic mb-5 pb-5" style="color: white;"  id="waterfall">"A waterfall" - 2022 Asheville, NC</p>
+                <br>
+                <br>
+                <img src="Trees panorama sunset.jpg" class="img-fluid mt-5 pt-5 mb-3rounded" alt="">
+                <p class="fst-italic mb-5 pb-5" style="color: white;"  id="trees">"da trees" - 2023 Ocklawaha, Fl</p>
+                <br>
+                <br>
+            
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade my-5 py-5 " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content" id="modalContent">
+            
+                <div class="container-xxl">
+                <img src="" class="my-5" style="height: 600px; width: 600px;" alt="" id="modalImg">
+                </div>
+        
+        </div>
+      </div>
+  
+    <link rel="stylesheet" href="home.css" type="text/css">
+    <script type="text/javascript" src="home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
